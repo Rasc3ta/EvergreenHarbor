@@ -1,0 +1,138 @@
+:root {
+  --veryDarkGreen: #092635;
+  --DarkGreen: #1b4242;
+  --Green: #5c8374;
+  --LightGreen: #9ec8b9;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* header  */
+
+/* nav */
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+  text-shadow: 0px 0px 1.5rem var(--LightGreen);
+}
+
+/* main nav */
+.primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  background-color: var(--veryDarkGreen);
+  padding: 1rem;
+}
+
+.primary ul {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  height: 100%;
+}
+
+.primary ul li {
+  margin: 0px 0.75rem;
+}
+
+nav a,
+nav input,
+nav a:visited {
+  color: whitesmoke;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.green {
+  color: var(--LightGreen);
+}
+
+.logo {
+  background-image: url("./images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+}
+
+.primary form {
+  /* height: 2.5rem; */
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-grow: 1;
+}
+
+.form {
+  flex-grow: 1;
+  max-width: 35%;
+}
+
+input {
+  height: 100%;
+  border-radius: 0.75rem;
+  border: none;
+}
+
+.searchBar {
+  color: var(--veryDarkGreen);
+  padding: 0.5em;
+  font-size: 1.5rem;
+  flex-grow: 1;
+}
+
+.searchBar::placeholder {
+  color: #09263596;
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.5em 0.75em;
+  background-color: var(--LightGreen);
+  color: var(--veryDarkGreen);
+}
+
+/* secondary nav */
+
+.secondary {
+  background-color: var(--DarkGreen);
+}
+
+.secondary ul {
+  list-style-type: none;
+}
+
+.secondary ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5em;
+}
+
+.secondary li {
+  padding: 0.25em;
+  font-size: 1.125rem;
+}
