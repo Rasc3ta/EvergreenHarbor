@@ -2,7 +2,8 @@
   --veryDarkGreen: #092635;
   --DarkGreen: #1b4242;
   --Green: #5c8374;
-  --LightGreen: #9ec8b9;
+  --LightGreen: #bceddc;
+  --LighterGreen: #d1efe5;
 }
 
 * {
@@ -11,13 +12,16 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--LighterGreen);    
+}
+
+
 /* header  */
 
 /* nav */
 
-nav {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 nav a:hover {
   text-shadow: 0px 0px 1.5rem var(--LightGreen);
